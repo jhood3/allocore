@@ -1,4 +1,5 @@
-# Al $\ell_0$ core
+#Code for Al $\ell_0$ core
+John Hood and Aaron Schein, University of Chicago
 
 Source code for "The Al $\ell_0$ core Tensor Decomposition for Sparse Count Data", presented at *AISTATS 2024*. 
 
