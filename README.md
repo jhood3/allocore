@@ -10,7 +10,8 @@ Source code for "The Al $\ell_0$ core Tensor Decomposition for Sparse Count Data
 * [utils.jl](src/utils.jl): Sampling functions and support for `allocore.jl`. 
 * [allocore_tutorial.ipynb](src/allocore_tutorial.ipynb): Demo fitting an all $\ell_0$ core model to toy data in python.
 
-
+## What's included in class_figs:
+* component_(class number).pdf: stem plot representation of the corresponding inferred latent class from the qualitative experiment in the paper. 
 ## Dependencies:
 Julia:
 * [JLD](https://github.com/JuliaIO/JLD.jl)
