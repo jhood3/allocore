@@ -1,3 +1,3 @@
 # Allocore
 
-Source code for " $\text{The Al}\ell_0\text{ Tensor Decomposition for Sparse Count Data}$ " presented at *AISTATS 2024*. 
+Source code for "The Al $\ell_0$ core Tensor Decomposition for Sparse Count Data$ " presented at *AISTATS 2024*. 
