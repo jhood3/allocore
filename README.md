@@ -2,7 +2,8 @@
 John Hood and Aaron Schein, University of Chicago
 
 Source code for "The Al $\ell_0$ core Tensor Decomposition for Sparse Count Data", presented at *AISTATS 2024*. 
-Paper: [https://arxiv.org/abs/2403.06153](https://arxiv.org/abs/2403.06153)
+
+[https://arxiv.org/abs/2403.06153](https://arxiv.org/abs/2403.06153)
 
 ## What's included in src:
 
