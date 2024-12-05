@@ -48,8 +48,10 @@ function update_prior(latent_dims, pis_M, indices_QM, obs_dims, hyperoptions) #u
     M = length(pis_M)
     for m in 1:M
         alpha = fill(sharing_param/obs_dims[m], latent_dims[m])
-        inds = indices_QM[:,m]
-        alpha[inds] .+= 1
+        for q in axes(indices_QM, 1)
+            ind = indices_QM[q,m]
+            alpha[ind] += 1
+        end
         pis_M[m] = rand(Dirichlet(alpha))
     end
     return(pis_M)
